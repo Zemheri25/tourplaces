@@ -1,0 +1,31 @@
+.container2{
+    font-family: 'Amatic SC', cursive;
+    background-color: #BFE4F5;
+    margin-top: -1rem !important;
+}
+
+img{
+    height: 14rem;
+    width: 98%;
+    border-radius: 5px;
+}
+.card{
+    position: relative;
+    margin-bottom: 2rem;
+}
+.description{
+    position: absolute;
+    bottom: 10px;
+    font-family:sans-serif;
+    font-size: 0.8rem;
+    overflow-y: scroll;
+    height: 75px;
+    opacity: 0;
+}
+.card:hover .description{
+    opacity: 1;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+.card:hover img{
+    filter: grayscale(100%)
+}

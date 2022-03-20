@@ -1,0 +1,13 @@
+.nav-item:hover{
+    background-color: #BEE4F5;
+    
+    cursor: pointer;
+    
+}
+.nav-item a{
+    color: white;
+}
+
+.nav-item a:hover {
+    color: black;
+}
